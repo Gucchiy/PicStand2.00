@@ -1,0 +1,4 @@
+$WindowTitle=写真たて
+$InstallTitle=一時ファイルの解凍先(&D)
+$InstallDir=%WORK%\PStd20004.tmp
+$Command=Setup.exe /d

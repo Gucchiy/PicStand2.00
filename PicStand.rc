@@ -1,0 +1,288 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\PicStand.rc2""  // Microsoft Visual C++ 以外のツールで編集されたリソース\r\n"
+    "#include ""l.jpn\\afxres.rc""          // 標準のコンポーネント\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_DEFAULTICON         ICON    DISCARDABLE     "res\\icon1.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,4,0
+ PRODUCTVERSION 2,0,4,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Idea && Technology\0"
+            VALUE "FileDescription", "【写真たて】\0"
+            VALUE "FileVersion", "2, 0, 4, 0\0"
+            VALUE "InternalName", "PicStand\0"
+            VALUE "LegalCopyright", "Copyright 2001, 2002 Idea && Technology All rights reserved.\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PicStand.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "PicStand\0"
+            VALUE "ProductVersion", "2, 0, 4, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MENU00              BITMAP  DISCARDABLE     "Graphics\\Menu00.BMP"
+IDB_MENU01              BITMAP  DISCARDABLE     "Graphics\\Menu01.BMP"
+IDB_MENU03              BITMAP  DISCARDABLE     "Graphics\\Menu03.BMP"
+IDB_STATUS00            BITMAP  DISCARDABLE     "Graphics\\Status00.BMP"
+IDB_STATUS01            BITMAP  DISCARDABLE     "Graphics\\Status01.BMP"
+IDB_STAYDOWN00          BITMAP  DISCARDABLE     "Graphics\\StayDown00.BMP"
+IDB_STAYDOWN01          BITMAP  DISCARDABLE     "Graphics\\StayDown01.BMP"
+IDB_STAYUP00            BITMAP  DISCARDABLE     "Graphics\\StayUp00.BMP"
+IDB_STAYUP01            BITMAP  DISCARDABLE     "Graphics\\StayUp01.BMP"
+IDB_BACK00              BITMAP  DISCARDABLE     "Graphics\\Back00.BMP"
+IDB_BACK01              BITMAP  DISCARDABLE     "Graphics\\Back01.BMP"
+IDB_BACK02              BITMAP  DISCARDABLE     "Graphics\\Back02.BMP"
+IDB_NEXT00              BITMAP  DISCARDABLE     "Graphics\\Next00.BMP"
+IDB_NEXT01              BITMAP  DISCARDABLE     "Graphics\\Next01.BMP"
+IDB_NEXT02              BITMAP  DISCARDABLE     "Graphics\\Next02.BMP"
+IDB_RGB_RED             BITMAP  DISCARDABLE     "graphics\\rgb_red.bmp"
+IDB_RGB_GREEN           BITMAP  DISCARDABLE     "graphics\\rgb_gree.bmp"
+IDB_RGB_BLUE            BITMAP  DISCARDABLE     "graphics\\rgb_blue.bmp"
+IDB_DEFAULT             BITMAP  DISCARDABLE     "res\\Default.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM_CONTEXT_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "CONTEXT_MENU"
+    BEGIN
+        MENUITEM "常に手前に表示",              IDM_TOPMOST
+        MENUITEM "最背面に表示",                IDM_BOTTOMMOST
+        MENUITEM SEPARATOR
+        MENUITEM "次のキャッシュ画像",          IDM_CASH_NEXT
+        MENUITEM "前のキャッシュ画像",          IDM_CASH_PREV
+        MENUITEM "現在表示されているキャッシュ画像を削除", IDM_CASH_DELETE
+        MENUITEM "全てのキャッシュ画像ファイルを表示", IDM_DISP_CASH
+        MENUITEM SEPARATOR
+        MENUITEM "位置の固定",                  IDM_STAY
+        MENUITEM "写真を隠す",                  IDM_BARSTYLE
+        MENUITEM SEPARATOR
+        POPUP "画像サイズ"
+        BEGIN
+            MENUITEM "×２",                        IDM_MUL2
+            MENUITEM "×１",                        IDM_MUL1
+            MENUITEM "÷２",                        IDM_DIV2
+            MENUITEM "倍率の設定",                  IDM_SIZESETTING
+        END
+        MENUITEM "デザインのカスタマイズ",      IDM_CUSTOMIZEWND
+        MENUITEM SEPARATOR
+        POPUP "【写真たて】サイズの初期値"
+        BEGIN
+            MENUITEM "【写真たて】サイズを画像サイズにあわせる", IDM_FIXSIZE
+            MENUITEM "画像サイズを【写真たて】サイズにあわせる", 
+                                                    IDM_FIXSIZE2
+        END
+        MENUITEM "スタートアップ登録",          IDM_REG_STARTUP
+        MENUITEM SEPARATOR
+        MENUITEM "バージョン情報",              IDM_VERSIONDLG
+        MENUITEM "取扱説明書",                  IDM_HELP
+        MENUITEM "アイディア&&&&テクノロジー サイト", IDM_SUPPORT
+        MENUITEM SEPARATOR
+        MENUITEM "【写真たて】の終了",          IDM_CLOSE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_VERSION_INFO DIALOG DISCARDABLE  0, 0, 210, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "【写真たて】バージョン情報"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,168,7,35,14
+    LTEXT           "【写真たて】 Version 2.00.04",IDC_STATIC,7,38,196,8
+    LTEXT           "Copyright 2001, 2002 アイディア&&&&テクノロジー All rights reserved.",
+                    IDC_STATIC,7,49,196,8
+    ICON            IDI_DEFAULTICON,IDC_STATIC,7,7,20,21
+END
+
+IDD_CUSTOMIZE_WND DIALOG DISCARDABLE  0, 0, 191, 197
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "デザインのカスタマイズ"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "決定",IDOK,77,176,50,14
+    PUSHBUTTON      "取り消し",IDCANCEL,134,176,50,14
+    SCROLLBAR       IDC_SCROLLBAR_RED,25,28,110,11,WS_TABSTOP
+    SCROLLBAR       IDC_SCROLLBAR_GREEN,25,47,110,11,WS_TABSTOP
+    SCROLLBAR       IDC_SCROLLBAR_BLUE,25,66,110,11,WS_TABSTOP
+    SCROLLBAR       IDC_SCROLLBAR_WIDTH,25,117,110,11,WS_TABSTOP
+    PUSHBUTTON      "デフォルト設定",IDC_DEFAULT,134,146,50,14
+    GROUPBOX        "額縁色の設定",IDC_STATIC,7,7,177,80
+    GROUPBOX        "額縁幅の設定",IDC_STATIC,7,99,177,43
+    EDITTEXT        IDC_EDIT_RED,145,27,27,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_GREEN,145,46,27,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_BLUE,145,65,27,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_WIDTH,145,116,27,14,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP
+    CONTROL         159,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_SUNKEN,12,28,9,11
+    CONTROL         160,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_SUNKEN,12,47,9,11
+    CONTROL         161,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_SUNKEN,12,66,9,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_VERSION_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_CUSTOMIZE_WND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 184
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE 17, 1
+#pragma code_page(932)
+#endif //_WIN32
+#include "res\PicStand.rc2"  // Microsoft Visual C++ 以外のツールで編集されたリソース
+#include "l.jpn\afxres.rc"          // 標準のコンポーネント
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

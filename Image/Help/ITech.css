@@ -1,0 +1,10 @@
+body {  font-family: "MS UI Gothic"; font-size: 9pt; font-style: normal; font-weight: normal;}
+a:active {  color: #F00; text-decoration: none}
+a:link {  color: #5074ae; text-decoration: none}
+a:visited {  color: #3FAEBA; text-decoration: none}
+a:hover {  color: #FF6FAB; text-decoration: underline}
+table {  font-family: "MS UI Gothic"; font-size: 9pt}
+.minisize {  font-family: "MS UI Gothic"; font-size: 8pt}
+.maximize {
+font-family: "MS UI Gothic"; font-size: 18pt
+}

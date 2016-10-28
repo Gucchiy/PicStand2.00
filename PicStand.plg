@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>ﾋﾞﾙﾄﾞのﾛｸﾞ</h1>
+<h3>
+--------------------構成: PicStand - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo"Release/PicStand.res" /d "NDEBUG" "D:\Develop\VC\PicStand\PicStand.rc"" 
+一時ﾌｧｲﾙ "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP113C.tmp" を作成し、次の内容を記録します
+[
+vfw32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/PicStand.pdb" /machine:I386 /out:"Release/PicStand.exe" 
+.\Release\Canvas.obj
+.\Release\CanvasItem.obj
+.\Release\CustomButton.obj
+.\Release\CustomizeWnd.obj
+.\Release\Dibutils.obj
+.\Release\ExpandShortcut.obj
+.\Release\Global.obj
+.\Release\IdeaTech.obj
+.\Release\IJLWrapper.obj
+.\Release\PicStand.obj
+.\Release\PicStandWnd.obj
+.\Release\Picture.obj
+.\Release\PictureFileDlg.obj
+.\Release\StatusWnd.obj
+.\Release\StayButton.obj
+.\Release\StdAfx.obj
+.\Release\TrayIcon.obj
+.\Release\VersionInfoDlg.obj
+.\Release\PicStand.res
+.\ijl15.lib
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP113C.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ﾘﾝｸ中...
+
+
+
+<h3>結果</h3>
+PicStand.exe - ｴﾗｰ 0、警告 0
+</pre>
+</body>
+</html>

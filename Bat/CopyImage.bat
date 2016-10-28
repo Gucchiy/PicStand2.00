@@ -1,0 +1,1 @@
+copy D:\Develop\VC\PicStand\Release\PicStand.exe D:\Develop\VC\PicStand\Image
